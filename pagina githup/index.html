@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño B.A.C.K</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: #b3702a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            color: #fff;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo img {
+            max-height: 50px;
+            width: auto;
+            display: block;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header nav a:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #ddd;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .banner {
+            background-color: #2b89c7;
+            color: #fff;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+            position: relative;
+            margin: 20px;
+            border-radius: 20px;
+            padding: 40px;
+        }
+
+        .banner img {
+            max-height: 80%;
+            max-width: 40%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .banner .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 20px;
+        }
+
+        .banner .social-icons {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .banner .social-icons a img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .banner .social-icons a:hover img {
+            transform: scale(1.1);
+        }
+
+        .catalogo {
+            background-color: #b3702a;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin: 20px auto;
+            width: 200px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .catalogo:hover {
+            transform: scale(1.1);
+        }
+
+        .modules-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .module {
+            background-color: #a65b27;
+            color: #fff;
+            padding: 15px;
+            width: 250px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .module:hover {
+            transform: scale(1.05);
+        }
+
+        .module h3 {
+            background-color: #fff;
+            color: #a65b27;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .module p {
+            margin: 10px 0 0;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Sin_título-1-removebg-preview.png" alt="Logotipo de B.A.C.K">
+        </div>
+        <nav>
+            <a href="#">Resultados</a>
+            <a href="#">¿Qué es B.A.C.K?</a> 
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="img/logo-removebg-preview.png" alt="Logotipo de B.A.C.K">
+        <div class="content">
+            <h1>Bienvenidos a B.A.C.K</h1>
+            <p>En B.A.C.K, transformamos la experiencia del embalaje infantil en pura magia. Nuestros diseños innovadores no solo protegen los productos, sino que también encantan a los niños y a sus familias con creatividad y diversión. Dale un toque especial a tus productos con empaques que cuentan historias y despiertan sonrisas. ¡Haz que cada momento sea memorable con B.A.C.K!</p>
+        </div>
+        <!-- Redes sociales -->
+        <div class="social-icons">
+            <a href="#" title="Facebook"><img src="img/facebook_logo_icon_147291.png" alt="Facebook"></a>
+            <a href="#" title="Twitter"><img src="img/twitter_x_new_logo_x_rounded_icon_256078.png" alt="Twitter"></a>
+            <a href="#" title="Instagram"><img src="img/1491580635-yumminkysocialmedia26_83102.png" alt="Instagram"></a>
+        </div>
+    </div>
+
+    <div class="catalogo">CATÁLOGO</div>
+
+    <div class="modules-container">
+        <a href="modulo.html">
+          <div class="module">
+            <h3>Módulo 1</h3>
+            <p>Introducción al Diseño de Empaques Infantiles</p>
+          </div>
+        </a>
+        <a href="modulo.html">
+          <div class="module">
+            <h3>Módulo 2</h3>
+            <p>Psicología del Color y Diseño para Niños</p>
+          </div>
+        </a>
+        <a href="modulo.html">
+          <div class="module">
+            <h3>Módulo 3</h3>
+            <p>Diseño de Envolturas y Etiquetas Creativas</p>
+          </div>
+
+
+</body>
+</html>
